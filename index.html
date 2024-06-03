@@ -31,6 +31,17 @@
             margin: 1px auto;
             width: 340px; /* Set the width of the container (slightly more than the video width) */
         }
+        .video-placeholder {
+            width: 320px;
+            height: 240px;
+            background-color: #ddd;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #555;
+            font-size: 16px;
+            border: 2px dashed #bbb;
+        }
         .badge-container a, .badge-container img {
             display: inline-block;
             margin: 0 5px 10px;
@@ -153,7 +164,7 @@
 </head>
 <body>
     <header>
-        <h1>Mike's ePortfolio: Showcasing CS499 Projects</h1>
+        <h1>Mike's ePortfolio: sShowcasing CS499 Projects</h1>
     </header>
     
     <div class="content">
@@ -182,9 +193,9 @@
                 </div>
                 <p id="next">next</p>
                 <div class="video-container">
-                    <video width="320" height="240" controls>
-                        <source src="/asset/milestoneone.mp4" type="video/mp4">
-                    </video>
+                    <div class="video-placeholder">
+                        Video Placeholder
+                    </div>
                 </div>
             </td>
           </tr>
